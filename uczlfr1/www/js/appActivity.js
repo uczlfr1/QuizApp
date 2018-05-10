@@ -64,7 +64,7 @@ for(var i = 0; i < geoJSON[0].features.length; i++) {  // a loop to process all 
 				             var lat=feature[component][geometry][1];                             
                              var distance = calculateDistance(position.coords.latitude, position.coords.longitude, lat,lng, 'K');
                                  document.getElementById('showDistance').innerHTML = "Distance: " + distance;
-                                       if (distance<10.0){ // setting popup distance 
+                                       if (distance<0.4){ // setting popup distance 
 	                                           L.marker([lat, lng]).addTo(mymap).bindPopup("<b>Not far</b>").openPopup();
 											            Quiz(i); //here show related question
 														}
