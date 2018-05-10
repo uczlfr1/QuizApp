@@ -1,0 +1,52 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "quiz"
+    },
+    "cordova-plugin-battery-status": {
+      "PACKAGE_NAME": "quiz"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "quiz"
+    },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "quiz"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "quiz"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "quiz"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "quiz"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "quiz"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "quiz"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "quiz"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "quiz"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "quiz"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "quiz"
+    }
+  }
+}
